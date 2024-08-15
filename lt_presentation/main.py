@@ -4,7 +4,7 @@
 # Based on finding possibly highlight not just number of people but gender/location etc?
 
 #Begin with importing Libraries
-from lt_presentationt import analyzer
+from lt_presentation import analyzer
 
 from sklearn.model_selection import train_test_split
 from sklearn.cluster import KMeans, AgglomerativeClustering, MeanShift
